@@ -404,3 +404,22 @@ table {
     border-collapse: collapse;
     border-spacing: 0;
 }
+
+
+ /* ==========================================================================
+   ol, ul removing list style and defining blockquote
+   ========================================================================== */
+
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+ 
